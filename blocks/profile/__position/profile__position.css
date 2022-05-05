@@ -1,0 +1,23 @@
+.profile__position {
+  max-width: 336px;
+  margin: 0;
+  grid-area: position;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 450px) {
+  .profile__position {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    padding-right: 30px;
+  }
+}
+
