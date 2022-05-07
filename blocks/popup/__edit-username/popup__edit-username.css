@@ -1,0 +1,14 @@
+.popup__edit-username {
+  margin: 54px 36px 30px 36px;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #bcbcc4;
+}
+
+@media (max-width: 470px) {
+  .popup__edit-username {
+    margin: 75px 22px 30px 22px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

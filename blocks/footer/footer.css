@@ -8,3 +8,9 @@
     max-width: calc(100% - 38px);
   }
 }
+
+@media (max-width: 940px) {
+  .footer {
+    margin-bottom: 36px;
+  }
+}
