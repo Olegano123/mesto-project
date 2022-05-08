@@ -1,7 +1,7 @@
 # Проект "Mesto"  
 ![badge](https://img.shields.io/badge/Technologies-HTML5-orange) [![badge](https://img.shields.io/badge/Technologies-CSS3-blue)](https://www.w3.org/Style/CSS/#specs)
 
-<img src="https://i.imgur.com/soVNhb8.png" width="50px">
+<img src="https://i.imgur.com/soVNhb8.png" width="30px">
 
 Учебный проект на базе обучения сервиса Яндекс Практикума, который предполагает возможность свободно делиться красивыми фотографиями среди пользователей (без регистрации на сервисе).
 
