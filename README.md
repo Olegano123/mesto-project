@@ -1,7 +1,5 @@
 ## Проект "Mesto"  ![badge](https://img.shields.io/badge/Technologies-HTML5-orange) [![badge](https://img.shields.io/badge/Technologies-CSS3-blue)](https://www.w3.org/Style/CSS/#specs)
 
-![badge](https://i.imgur.com/6BZADZD.png)
-
 ## Сервис по обмену фотографиями
 3-й учебный проект на базе обучения Яндекс Практикума, который предполагает возможность делиться красивыми фотографиями.
 
