@@ -1,5 +1,5 @@
-## Яндекс.Практикум
-*Проект 'Mesto'*
+## *Проект 'Mesto' &bullet; [![badge](https://img.shields.io/badge/Technologies-HTML5-orange)](https://html.spec.whatwg.org/multipage/) [![badge](https://img.shields.io/badge/Technologies-CSS3-blue)](https://www.w3.org/Style/CSS/#specs) [![badge](https://img.shields.io/badge/Technologies-JS-yellow)](https://www.w3.org/Style/CSS/#specs)
+*Яндекс Практикум
 ## Сервис по обмену фотографиями
 3-й учебный проект на базе обучения Яндекс Практикума, который предполагает возможность делиться красивыми фотографиями.
 
