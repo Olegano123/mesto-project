@@ -1,4 +1,4 @@
-## *Проект 'Mesto'  [![badge](https://img.shields.io/badge/Technologies-HTML5-orange)] 
+## *Проект 'Mesto'  [![badge](https://img.shields.io/badge/-HTML-orange)] 
 
 *Яндекс Практикум
 ## Сервис по обмену фотографиями
