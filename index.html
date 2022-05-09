@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./page/index.css">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <meta name="description" content="Сайт обмена фотографиями">
     <meta name="keywords" content="Россия, обмен фотографиями, красивые места, отдых, достопримечательности, памятники, парк, кремль">
     <title>Mesto - Russia</title>
@@ -31,42 +30,42 @@
         <li class="elements__card">
           <img src="./image/card-image-krasnodar.jpeg" alt="Фотография парка в Краснодаре" class="elements__picture">
           <div class="elements__content">
-            <p class="elements__title">Парк Краснодар</p>
-            <button class="elements__button elements__button_active" type="button"></button>
+            <h2 class="elements__title">Парк Краснодар</h2>
+            <button class="elements__button" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
           <img src="./image/card-image-kremlin.jpeg" alt="Фотография московского кремля" class="elements__picture">
           <div class="elements__content">
-            <p class="elements__title">Кремль</p>
+            <h2 class="elements__title">Кремль</h2>
             <button class="elements__button" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
           <img src="./image/card-image-rodina.jpeg" alt="Фотография памятника Родина мать" class="elements__picture">
           <div class="elements__content">
-            <p class="elements__title">Родина Мать</p>
+            <h2 class="elements__title">Родина Мать</h2>
             <button class="elements__button" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
           <img src="./image/card-image-grand-theatre.jpeg" alt="Фотография большого театра" class="elements__picture">
           <div class="elements__content">
-            <p class="elements__title">Большой Театр</p>
+            <h2 class="elements__title">Большой Театр</h2>
             <button class="elements__button" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
           <img src="./image/card-image-hermitage.jpeg" alt="Фотография Эрмитажа" class="elements__picture">
           <div class="elements__content">
-            <p class="elements__title">Эрмитаж</p>
+            <h2 class="elements__title">Эрмитаж</h2>
             <button class="elements__button" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
           <img src="./image/card-image-kishi.jpeg" alt="Фотография архитектурного ансамбля Ки́жи" class="elements__picture">
           <div class="elements__content">
-            <p class="elements__title">Ки́жи</p>
+            <h2 class="elements__title">Ки́жи</h2>
             <button class="elements__button" type="button"></button>
           </div>
         </li>
@@ -78,18 +77,17 @@
   </footer>
 
   <!-- Форма редактирования профиля пользователя -->
-  <div class="popup popup_opened">
-    <form class="popup__container">
+  <!-- Модификатор "popup_opened" для div popup активизирует форму редактирования -->
+  <div class="popup">
+    <form class="popup__container" name="popupForm" method="POST">
       <div class="popup__content">
         <button class="popup__button-close" type="button"></button>
         <h2 class="popup__title">Редактировать профиль</h2>
         <fieldset class="popup__edit-username">
-          <input class="popup__edit-text" type="text" name="username" placeholder="Жак-Ив Кусто" required>
+          <input class="popup__edit-text" type="text" name="username" id="userName-input" placeholder="Имя" required>
+          <input class="popup__edit-text" type="text" name="position" id="userAbout-input" placeholder="О себе" required>
         </fieldset>
-        <fieldset class="popup__edit-position">
-          <input class="popup__edit-text" type="text" name="position" placeholder="Исследователь океана" required>
-        </fieldset>
-        <button class="popup__button-save" type="button">Сохранить</button>
+        <button class="popup__button-save" type="submit">Сохранить</button>
       </div>
     </form>
   </div>
